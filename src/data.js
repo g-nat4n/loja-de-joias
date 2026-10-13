@@ -1,13 +1,8 @@
-import heroImage from "@brand/c__Users_Gabriel_Natan_AppData_Roaming_Cursor_User_workspaceStorage_a758a689d85767678361d35f5a8128ec_images_WhatsApp_Image_2026-10-13_at_18.01.29-b6f913f0-237b-43fd-a190-12d9a67cd541.jpg";
-import stillLifeImage from "@brand/c__Users_Gabriel_Natan_AppData_Roaming_Cursor_User_workspaceStorage_a758a689d85767678361d35f5a8128ec_images_WhatsApp_Image_2026-10-13_at_18.01.28-592edfe1-d874-482c-81db-4e77dd84e29e.jpg";
-import stationeryImage from "@brand/c__Users_Gabriel_Natan_AppData_Roaming_Cursor_User_workspaceStorage_a758a689d85767678361d35f5a8128ec_images_WhatsApp_Image_2026-10-13_at_18.01.29__1_-46a736d6-9c52-4abd-a1f8-cbe6d6a67b7e.jpg";
-import identityImage from "@brand/c__Users_Gabriel_Natan_AppData_Roaming_Cursor_User_workspaceStorage_a758a689d85767678361d35f5a8128ec_images_WhatsApp_Image_2026-10-13_at_18.02.02-590f0ee9-103e-4cfd-b6ca-e6c65ab63e8e.jpg";
-
-export const brandAssets = {
-  hero: heroImage,
-  stillLife: stillLifeImage,
-  stationery: stationeryImage,
-  identity: identityImage,
+﻿export const brandAssets = {
+  hero: "https://images.unsplash.com/photo-1599459183200-59c7687a0275?auto=format&fit=crop&w=2000&q=90",
+  stillLife: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1600&q=90",
+  stationery: "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1400&q=90",
+  identity: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1400&q=90",
 };
 
 export const products = [
@@ -122,7 +117,7 @@ export const products = [
     installments: "10x de R$ 248,00",
     description: "Ouro amarelo 18k",
     details: "Formas fluidas refletem a luz em um brinco escultórico, marcante e confortável.",
-    image: brandAssets.hero,
+    image: "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1200&q=90",
     imageAlt: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1200&q=90",
     badge: "SIGNATURE",
     stock: 5,
@@ -137,8 +132,8 @@ export const products = [
     installments: "10x de R$ 325,00",
     description: "Ouro amarelo 18k e diamantes",
     details: "Criada sob encomenda, a Aliança Aura pode receber gravação e ajustes personalizados.",
-    image: brandAssets.stillLife,
-    imageAlt: "https://images.unsplash.com/photo-1589674781759-c21c37956a44?auto=format&fit=crop&w=1200&q=90",
+    image: "https://images.unsplash.com/photo-1589674781759-c21c37956a44?auto=format&fit=crop&w=1200&q=90",
+    imageAlt: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1200&q=90",
     badge: "SOB ENCOMENDA",
     stock: 1,
     rating: 5,
@@ -184,3 +179,5 @@ export const formatPrice = (value) =>
     style: "currency",
     currency: "BRL",
   }).format(value);
+
+
